@@ -1,0 +1,209 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs24 \cf2 voici les messages OSC directement issus du code de DL\
+\
+pour les sub:\
+\
+\{ "level", 5\}, //0 set the level of the sub\
+\
+\{ "mode", 4\}, //1 set the Flash/Time mode\
+\
+\{ "flash", 5\}, //2 flash the sub according to his mode\
+\
+\{ "type", 4\}, //3 set solo/normal type\
+\
+\{ "kill", 4\}, //4 set solo/normal type\
+\
+\{ "book", 4\}, //5 subbook command\
+\
+\{ "page", 4\}, //6 subpage command\
+\
+\{ "master", 6\}, //7 all sub master\
+\
+\{ "flashmaster", 11\} //8 all sub master\
+\
+\
+\
+pour le patch:\
+\
+\{ "channel", 7\}, //0 set the active channel of the patch\
+\
+\{ "next", 4\}, //1 simulate DOWN key\
+\
+\{ "prev", 4\}, //2 simulate UP key\
+\
+\{ "dimmer", 6\}, //3 set the active Dimmer of the patch\
+\
+\{ "switch", 6\}, //4 switch between Channel/Dimmer or Dimmer/Channel config\
+\
+\{ "displayLevel", 5\}, //5 display pour Level\
+\
+\{ "thru", 4\}, //6 set the thru dimmer box\
+\
+\{ "plus", 4\}, //7 add function\
+\
+\{ "moins", 5\}, //8 remove function\
+\
+\{ "launch", 6\}, //9 launch/kill patch window\
+\
+\{ "1", 1\}, //10\
+\
+\{ "2", 1\},\
+\
+\{ "3", 1\},\
+\
+\{ "4", 1\},\
+\
+\{ "5", 1\},\
+\
+\{ "6", 1\},\
+\
+\{ "7", 1\},\
+\
+\{ "8", 1\},\
+\
+\{ "9", 1\},\
+\
+\{ "0", 1\},\
+\
+\{ "dot", 3\}, //20\
+\
+\{ "displayChannel", 14\}, //21 display pour Channel\
+\
+\{ "displayDimmer", 13\}, //22 display pour Dimmer\
+\
+\{ "displayThru", 11\}, //23 display pour Dimmer\
+\
+\{ "input", 5\}, //24 zone de saisie\
+\
+\{ "levelRequest", 12\}, //25 ask 4 change test level\
+\
+\{ "clear", 5\}, //26 clear input\
+\
+\{ "testDimmer", 10\}, //27 test function 4 Dimmer\
+\
+\{ "testChannel", 11\}, //28 test function 4 Channel\
+\
+\{ "displayActiveChannel", 20\}, //29 display active Channel\
+\
+\{ "displayActiveDimmer", 19\}, //30 display active Dimmer\
+\
+\{ "displayActiveThru", 17\}, //31 display active Dimmer Thru\
+\
+\{ "enter", 5\}, //32 enter\
+\
+\{ "RoomUniverseRQ", 14\}, //33 Room, universe request\
+\
+\{ "displayActiveRoomUniverse", 25\}, //34 display active universe\
+\
+\{ "styleRoomUniverse", 17\} //35 display active Room or Universe\
+\
+\
+\
+pour la sequence:\
+\
+\{ "go", 2\},\
+\
+\{ "goback", 6\},\
+\
+\{ "pause", 5\},\
+\
+\{ "fadeX1", 6\},\
+\
+\{ "fadeX2", 6\},\
+\
+\{ "Xfade", 5\},\
+\
+\{ "X1", 2\},\
+\
+\{ "X2", 2\},\
+\
+\{ "goto", 4\},\
+\
+\{ "X2LoadAndFireCue", 16\},\
+\
+\{ "master", 6\},\
+\
+\{ "plus", 4\},\
+\
+\{ "moins", 5\},\
+\
+\{ "X1ActiveCue", 11\},\
+\
+\{ "X2ActiveCue", 11\}\
+\
+\
+\
+pour le pad:\
+\
+\{ "clone", 5\}, //0\
+\
+\{ "inv", 3\}, //1\
+\
+\{ "enter", 5\}, //2\
+\
+\{ "blackout", 8\}, //3\
+\
+\{ "freeze", 6\}, //4\
+\
+\{ "channel", 7\}, //5\
+\
+\{ "dot", 3\}, //6\
+\
+\{ "ff", 2\}, //7\
+\
+\{ "level", 5\}, //8\
+\
+\{ "moinspourcent", 13\}, //9\
+\
+\{ "pluspourcent", 12\}, //10\
+\
+\{ "plus", 4\}, //11\
+\
+\{ "moins", 5\}, //12\
+\
+\{ "thru", 4\}, //13\
+\
+\{ "all", 3\}, //14\
+\
+\{ "1", 1\}, //15\
+\
+\{ "2", 1\}, //16\
+\
+\{ "3", 1\}, //17\
+\
+\{ "4", 1\}, //18\
+\
+\{ "5", 1\}, //19\
+\
+\{ "6", 1\}, //20\
+\
+\{ "7", 1\}, //21\
+\
+\{ "8", 1\}, //22\
+\
+\{ "9", 1\}, //23\
+\
+\{ "0", 1\}, //24\
+\
+\{ "clear", 5\}, //25\
+\
+\{ "clearclear", 10\}, //26\
+\
+\{ "prepa", 5\}, //27\
+\
+\{ "scene", 5\}, //28\
+\
+\{ "X1", 2\}, //29\
+\
+\{ "X2", 2\}, //30\
+\
+\{ "swap", 4\}, //31\
+\
+\
+\{ "input", 5\} //32 zone de saisie}

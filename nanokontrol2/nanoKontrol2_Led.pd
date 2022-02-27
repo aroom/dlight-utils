@@ -1,0 +1,25 @@
+#N canvas 174 304 418 420 10;
+#X obj -1803 -81 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X floatatom -1937 -52 5 0 0 0 - - -, f 5;
+#X obj -1937 -80 notein;
+#X obj -1937 32 noteout 1;
+#X obj -1862 -27 spigot;
+#X text -1881 -82 led off :;
+#X obj -1862 -5 makenote 255;
+#X obj -1937 -27 stripnote;
+#X text -1939 69 set the Common LED Mode to External via the Korg Kontrol
+Editor (use wine) use aconnect to connect the nanokontrol2 and pd with
+the ALSA driver aconnect nanoKONTROL2:0 Pure Data:0 aconnect Pure Data:2
+nanoKONTROL2:0 clic on the button to light them up select led off to
+light them down you can quit pd;
+#X connect 0 0 4 1;
+#X connect 1 0 4 0;
+#X connect 1 0 7 0;
+#X connect 2 0 1 0;
+#X connect 2 1 7 1;
+#X connect 4 0 6 0;
+#X connect 6 0 3 0;
+#X connect 6 1 3 1;
+#X connect 7 0 3 0;
+#X connect 7 1 3 1;
