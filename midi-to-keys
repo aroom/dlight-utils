@@ -1,9 +1,0 @@
-#!/bin/bash
-aseqdump -p "nanoKONTROL2" | \
-while IFS=" ," read src ev1 ev2 ch label1 data1 label2 data2 rest; do
-    case "$ev1 $ev2 $data1" in
-        "Note on 41" ) xdotool key space ;;
-	"Note on 43" ) xdotool key Up ;;
-	"Note on 44" ) xdotool key Down ;;
-    esac
-done
