@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<midi>
+  <switch id="0">
+    <CC channel="1" num="0" id="subStick">1</CC>
+    <CC channel="1" num="1" id="subStick">2</CC>
+    <CC channel="1" num="2" id="subStick">3</CC>
+    <CC channel="1" num="3" id="subStick">4</CC>
+    <CC channel="1" num="4" id="subStick">5</CC>
+    <CC channel="1" num="5" id="subStick">6</CC>
+    <CC channel="1" num="6" id="subStick">7</CC>
+    <CC channel="1" num="7" id="subStick">8</CC>
+    <CC channel="1" num="16" id="Submaster">9</CC>
+    <CC channel="1" num="17" id="Submaster">10</CC>
+    <CC channel="1" num="19" id="JoyStick">-1</CC>
+    <CC channel="1" num="20" id="FlashMaster">-1</CC>
+    <CC channel="1" num="21" id="AllSubMaster">-1</CC>
+    <CC channel="1" num="22" id="SceneMaster">-1</CC>
+    <CC channel="1" num="23" id="GrandMaster">-1</CC>
+    <NOTE channel="1" num="37" id="CloseAllSub">-1</NOTE>
+    <NOTE channel="1" num="38" id="Freeze">-1</NOTE>
+    <NOTE channel="1" num="39" id="BlackOut">-1</NOTE>
+    <NOTE channel="1" num="58" id="SubPagePrev">-1</NOTE>
+    <NOTE channel="1" num="59" id="SubPageNext">-1</NOTE>
+    <NOTE channel="1" num="60" id="Go">-1</NOTE>
+    <NOTE channel="1" num="63" id="flashStick">2</NOTE>
+    <NOTE channel="1" num="64" id="flashStick">1</NOTE>
+    <NOTE channel="1" num="65" id="flashStick">2</NOTE>
+    <NOTE channel="1" num="66" id="flashStick">3</NOTE>
+    <NOTE channel="1" num="67" id="flashStick">4</NOTE>
+    <NOTE channel="1" num="68" id="flashStick">5</NOTE>
+    <NOTE channel="1" num="69" id="flashStick">6</NOTE>
+    <NOTE channel="1" num="70" id="flashStick">7</NOTE>
+    <NOTE channel="1" num="71" id="flashStick">8</NOTE>
+  </switch>
+</midi>
+<!--This file is produced by D::Light _copyright_  NicolasBats (www.getdlight.com)-->
