@@ -1,6 +1,8 @@
 
 Ableton Live 11 scenes controlled by DLight via OSC with LiveGrabber https://www.showsync.com/tools
 
+**dlight osc Project.zip** --> le .zip contient une template live et un .sho linkés en osc en localhost 127.0.0.1:7331
+
 
 **MARCHE A SUIVRE**
 
