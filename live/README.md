@@ -1,12 +1,14 @@
 
-# hey
+# Hey! 🤗
+
+# Contents
 
 Ableton Live 11 scenes controlled by DLight via OSC with LiveGrabber https://www.showsync.com/tools
 
 **dlight osc Project.zip** --> le .zip contient une template live et un .sho linkés en osc en localhost 127.0.0.1:7331
 
 
-# MARCHE A SUIVRE
+# How to
 
 mode d'emploi :
 
@@ -44,15 +46,15 @@ maintenant tu peux créer un S-Link dans un step
 
 soit
 
-/Scene @s nom de la scene
+`/Scene @s nom de la scene`
 
 ou
 
-/Scene @f numéro de la scène
+`/Scene @f numéro de la scène`
 
 ou a essayer sous live 11 ya plus de décimal pour les numéro de scène
 
-/Scene @i numéro de la scène
+`/Scene @i numéro de la scène`
 
 voilà, tu peux tester en appuyant sur SEND, voir si ça marche.
 
@@ -68,6 +70,6 @@ tu devrais voir le message OSC dans l'objet GrabberReceiver si tout fonctionne (
 puis dans la conduite :
 - créer une Network Cue
 - Settings > Sélectionner le patch
-- message OSC : /Scene "nom de la scene" (avec les "" pour éviter les ennuis) ou numéro
+- message OSC : `/Scene "nom de la scene"` (avec les "" pour éviter les ennuis) ou numéro
 
 voilà
