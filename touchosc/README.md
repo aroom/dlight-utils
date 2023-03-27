@@ -1,14 +1,10 @@
-# Hey! 🤗
+# Hey! 🥱
 
 # Contents
 
-**mk1**
+**mk1** --> old touchos version
 
-old touchos version
-
-**mk2**
-
-new touchos version
+**mk2** --> new touchos version
 
 # More
 
