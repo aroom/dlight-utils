@@ -1,5 +1,5 @@
 
-#hey
+# hey
 
 Ableton Live 11 scenes controlled by DLight via OSC with LiveGrabber https://www.showsync.com/tools
 
@@ -18,13 +18,13 @@ il faut juste comprendre comment envoyer un message osc depuis dlight et ajouter
 
 parfois il se peut que le port soit déjà occupé et que la connexion ne passe pas. alors il faut changer le numéro du port dans DL et dans l'objet GrabberReciever (53111 par exemple)
 
-#donc, dans LIVE :
+# donc, dans LIVE :
 
 - ajouter les deux objets dans ton master
 - renseigner le port si tu veux pas laisser le port par défaut (7331)
 - choisir si tu veux que SceneGrabber parse par nom ou numéro (je conseil nom car numéro c'est vite galère et plus du tout gérable sous live 11)
 
-#puis dans DLIGHT :
+# puis dans DLIGHT :
 
 pour envoyer un message osc depuis dlight, il faut configurer l'adresse à laquelle tu veux l'envoyer. ça se passe ici :
 
@@ -59,7 +59,7 @@ voilà, tu peux tester en appuyant sur SEND, voir si ça marche.
 tu devrais voir le message OSC dans l'objet GrabberReceiver si tout fonctionne (si besoin de debug), et ça devrait aussi lancer la scène voulue au passage.
 
 
-#si QLAB est de la partie c'est :
+# si QLAB est de la partie c'est :
 - Settings > Network
 - Name (nom du patch de sortie réseau) OSC Message UDP
 - choisir l'interface réseau (automatic si en local)
