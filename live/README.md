@@ -10,9 +10,9 @@ Ableton Live 11 scenes controlled by DLight via OSC with LiveGrabber https://www
 
 # How to
 
-mode d'emploi :
+mode d'emploi de LiveGrabber :
 
-support.showsync.com/freetools/#/livegrabber/introduction 
+https://support.showsync.com/freetools/#/livegrabber/introduction
 
 objet max for live soit GrabberReciever ( support.showsync.com/freetools/#/livegra...n?id=grabberreceiver ) et SceneGrabber ( support.showsync.com/freetools/#/livegra...tion?id=scenegrabber )
 
