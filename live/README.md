@@ -83,9 +83,9 @@ puis dans la conduite :
 
 # 2 Ableton Live controlling DLight
 
-En utlisant GrabberSender et TrackGrabber, ont va pouvoir lancer une CUE dans DLight depuis Ableton Live simplement en nommant un clip Midi au numéro correspondant à la Cue (ou l'ID selon le message OSC)
+en utlisant GrabberSender et TrackGrabber, on va pouvoir lancer une CUE dans DLight depuis Ableton Live simplement en nommant un clip midi au numéro correspondant à la Cue (ou l'ID selon le message OSC) que l'on veut lancer.
 
-utiliser la template dlight osc (send and recieve).als 
+pour tester un example, utiliser la template dlight osc (send and recieve).als 
 
 
 # dans LIVE
@@ -98,7 +98,7 @@ utiliser la template dlight osc (send and recieve).als
 - dans TrackGrabber, configuer le paramètre de la track que l'on veut envoyer à DLight. pour nous ici c'est le nom du clip midi soit TriggeredClipName
 - configurer le message OSC pour piloter DLight. pour lancer une Cue : `/seq/X2LoadAndFireCue` pour lancer un ID : `/seq/X2LoadAndFireID`
 
-du coup en gros si le clip se nome 1.25, en le lançant ca va envoyer `/seq/X2LoadAndFireCue 1.25` à DLight
+du coup en gros si le clip midi se nomme `1.25`, en le lançant ca va envoyer `/seq/X2LoadAndFireCue 1.25` à DLight
 
 
 # dans DLIGHT
