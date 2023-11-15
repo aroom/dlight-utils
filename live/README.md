@@ -3,10 +3,18 @@
 
 # Contents
 
-Ableton Live 11 scenes controlled by DLight via OSC with LiveGrabber https://www.showsync.com/tools
+Ableton Live 11 scenes controlled by DLight via OSC or,
+
+Ableton Live 11 scenes controlled by QLab via OSC or,
+
+DLight being controled by Ableton Live 11 via OSC
+
+all this using LiveGrabber https://www.showsync.com/tools
 
 **dlight osc Project.zip** --> le .zip contient une template live et un .sho linkés en osc en localhost 127.0.0.1:7331
 
+
+# 1 Ableton Live being controlled
 
 # How to
 
@@ -71,5 +79,32 @@ puis dans la conduite :
 - créer une Network Cue
 - Settings > Sélectionner le patch
 - message OSC : `/Scene "nom de la scene"` (avec les "" pour éviter les ennuis) ou numéro
+
+
+# 2 Ableton Live controlling DLight
+
+En utlisant GrabberSender et TrackGrabber, ont va pouvoir lancer une CUE dans DLight depuis Ableton Live simplement en nommant un clip Midi au numéro correspondant à la Cue (ou l'ID selon le message OSC)
+
+utiliser la template dlight osc (send and recieve).als 
+
+
+# dans LIVE
+
+- ajouter GrabberSender à la piste master du projet
+- configurer l'adresse IP et le port de destination (la destination ici c'est DLight) dans GrabberSender (127.0.0.1 et 7000 dans notre template)
+
+- créer une nouvelle track MIDI
+- ajouter TrackGrabber à cette track
+- dans TrackGrabber, configuer le paramètre de la track que l'on veut envoyer à DLight. pour nous ici c'est le nom du clip midi soit TriggeredClipName
+- configurer le message OSC pour piloter DLight. pour lancer une Cue : `/seq/X2LoadAndFireCue` pour lancer un ID : `/seq/X2LoadAndFireID`
+
+du coup en gros si le clip se nome 1.25, en le lançant ca va envoyer `/seq/X2LoadAndFireCue 1.25` à DLight
+
+
+# dans DLIGHT
+
+dans le setup OSC, renseiger le Port d'écoute correspondant à celui renseigné dans GrabberSender (ici 7000) et lancer la serveur OSC si ce n'est pas encore fait (bouton rouge/vert Off/On)
+
+
 
 voilà
